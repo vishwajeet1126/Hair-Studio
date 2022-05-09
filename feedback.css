@@ -1,0 +1,86 @@
+<!doctype>
+<html>
+<head>
+<title>Demo</title>
+</head>
+</html>
+<form action=three.html>
+	<table>
+	<tr>
+		<td><label>Username:</label></td>
+		<td><input type=Email></td> 
+	</tr>
+	<tr>
+		<td><label>Password:</label></td>
+		<td><input type=password></td>
+	</tr>
+	
+	
+	<tr>
+		<td><label>Sequrity Que1</label></td>
+		<td>
+		<select name="date">
+			<option>Date of Birth</option>
+			<option>Pace of birth</option>
+			<option>Hospital</option>	
+		</select>
+		</td>
+	</tr>
+	<tr>
+	<td><label>Answer1</label></td>
+	<td><TextArea rows="4" cols="40"></TextArea></td>	
+	</tr>
+	<tr>
+		<td><label>Sequrity Que2</label></td>
+		<td>
+		<select name="date">
+			<option>Date of Birth</option>
+			<option>Pace of birth</option>
+			<option>Hospital</option>	
+		</select>
+		</td>
+	</tr>
+	<tr>
+	<td><label>Answer2</label></td>
+	<td><TextArea rows="4" cols="40"></TextArea></td>	
+	</tr>
+	<tr>
+		<td><label>Sequrity Que3</label></td>
+		<td>
+		<select name="date">
+			<option>Date of Birth</option>
+			<option>Pace of birth</option>
+			<option>Hospital</option>	
+		</select>
+		</td>
+	</tr>
+	<tr>
+	<td><label>Answer3</label></td>
+	<td><TextArea rows="4" cols="40"></TextArea></td>	
+	<tr>
+		<td><label>Preferences</label></td>
+		<td><input type="checkbox" name="skill" value="skill">skil
+		<input type="checkbox" name="work" value="work">work
+		</td>
+	</tr>
+	<tr>
+	
+		<td><label>Filled By</label></td>
+		<td><input type="radio" name="Filled By" value="Sef">self
+		<input type="radio" name="Filled By" value="parent">parent
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="submit">
+		<td/>
+	<tr/>
+	<tr>
+		<td>
+			<input type="reset">
+		<td/>
+	<tr/>
+	
+</form>
+</body>
+</html>
